@@ -1,0 +1,36 @@
+Strings in Java
+String: Object creation and main methods
+
+Object Creation:
+Using new keyword: String str = new String("Hello");
+Using string literal: String str = "Hello";
+Main Methods:
+length()
+charAt(int index)
+substring(int beginIndex, int endIndex)
+contains(CharSequence s)
+equals(Object anObject)
+isEmpty()
+toUpperCase(), toLowerCase()
+trim()
+replace(CharSequence target, CharSequence replacement)
+String comparison and String Pool
+
+String comparison:
+Using equals(): str1.equals(str2)
+Using == operator (compares reference, not value): str1 == str2
+String Pool:
+Strings in Java stored in a special memory area called the String Pool.  If the string already exists, the reference to the pooled instance is returned and a new string is added to the pool.
+
+Escape Sequences in Java
+\n - Newline
+\t - Tab
+\\ - Backslash
+\" - Double quote
+\' - Single quote
+String Formatting
+Use String.format()
+Example: String.format("%.2f", Math.PI) to format to 2 decimal places.
+Regular Expressions in Java
+Use Pattern and Matcher classes.
+Example: To check if a string contains only digits: Pattern.matches("\\d+", str)
